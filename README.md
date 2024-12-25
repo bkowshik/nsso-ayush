@@ -5,7 +5,27 @@
 - https://microdata.gov.in/NADA43/index.php/catalog/219/
 
 
-## Dataset
+# Dataset
+
+
+## Cleaned Dataset
+
+Cleaned dataset in full is available as `.parquet` files inside the `data/` directory.
+```bash
+$ ls -lh data/*.parquet
+-rw-r--r--@ 1 bkowshik  staff   3.5M Dec 25 14:04 data/79AyushHH.parquet
+-rw-r--r--@ 1 bkowshik  staff   6.5M Dec 25 14:04 data/79Ayushper.parquet
+```
+
+For a quick scan, `100 rows` from both of these files is available in `.csv` format inside the `data/` directory.
+```bash
+$ ls -lh data/*.csv
+-rw-r--r--@ 1 bkowshik  staff    21K Dec 25 14:10 data/79AyushHH-sample.csv
+-rw-r--r--@ 1 bkowshik  staff    27K Dec 25 14:10 data/79Ayushper-sample.csv
+```
+
+
+## Nesstar
 
 Reference: `DDI-IND-MOSPI-NSSO-AYUSH22-23`
 
