@@ -13,6 +13,7 @@
 ## Cleaned Dataset
 
 Cleaned dataset in full is available as `.parquet` files inside the `data/` directory.
+
 ```bash
 $ ls -lh data/*.parquet
 -rw-r--r--@ 1 bkowshik  staff   3.5M Dec 25 14:04 data/79AyushHH.parquet
@@ -20,10 +21,19 @@ $ ls -lh data/*.parquet
 ```
 
 For a quick scan, `100 rows` from both of these files is available in `.csv` format inside the `data/` directory.
+
 ```bash
 $ ls -lh data/*.csv
 -rw-r--r--@ 1 bkowshik  staff    21K Dec 25 14:10 data/79AyushHH-sample.csv
 -rw-r--r--@ 1 bkowshik  staff    27K Dec 25 14:10 data/79Ayushper-sample.csv
+```
+
+Description of the columns is available in the file `data/[dataset]-columns.csv`.
+
+```bash
+$ ls -lh data/*-columns.csv
+-rw-r--r--@ 1 bkowshik  staff   3.6K Dec 25 13:42 data/79AyushHH-columns.csv
+-rw-r--r--@ 1 bkowshik  staff    11K Dec 25 13:42 data/79Ayushper-columns.csv
 ```
 
 
