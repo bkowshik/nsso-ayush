@@ -49,7 +49,7 @@ nsso_ayush_db:
   threads: 4
 ```
 
-4. Update `column_name` of newly created test because of https://github.com/datakind/Data-Observation-Toolkit/issues/89
+4. Update `column_name` of newly created test because of https://github.com/datakind/Data-Observation-Toolkit/issues/89 [Temporary]
 
 ```sql
 update dot.configured_tests
