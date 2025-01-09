@@ -10,6 +10,17 @@
 # Dataset
 
 
+## Features
+
+### Features in `~/data/79AyushHH.parquet`
+
+![](images/79AyushHH-features.png)
+
+### Features in `~/data/79Ayushper.parquet`
+
+![](images/79Ayushper-features.png)
+
+
 ## Cleaned Dataset
 
 Cleaned dataset in full is available as `.parquet` files inside the `data/` directory.
